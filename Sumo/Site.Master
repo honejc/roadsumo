@@ -1,0 +1,90 @@
+﻿<%@ Master Language="VB" AutoEventWireup="true" CodeBehind="Site.master.vb" Inherits="Sumo.SiteMaster" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <title><%: Page.Title %></title>
+    <asp:PlaceHolder runat="server">        
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="~/Content/sumo.css" type="text/css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width" />
+    <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
+</head>
+<body>
+    <form runat="server">
+    <asp:ScriptManager runat="server">
+        <Scripts>
+            <%--To learn more about bundling scripts in ScriptManager see http://go.microsoft.com/fwlink/?LinkID=272931&clcid=0x409 --%>
+            <%--Framework scripts--%>
+            <asp:ScriptReference Name="MsAjaxBundle" />
+            <asp:ScriptReference Name="jquery" />
+            <asp:ScriptReference Name="jquery.ui.combined" />
+            <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+            <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+            <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+            <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+            <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+            <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+            <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+            <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+            <asp:ScriptReference Name="WebFormsBundle" />
+            <%--Site scripts--%>
+        </Scripts>
+    </asp:ScriptManager>
+    <header>
+    </header>
+    <div id="body">
+        <div id="main">
+            <div class="main-inner">
+                <div id="sidebar">
+                    <div class="sidebar-inner">
+                        <div class="logo shadow">
+                            <a href="/">roadsumo</a>
+                        </div>
+                        <div class="menu">
+                            <ul id="nav">
+                                <li>
+                                    <a href="/">home</a>
+                                </li>
+                                <li>
+                                    <a href="/">about</a>
+                                </li>
+                                <li>
+                                    <a href="/">contact</a>
+                                </li>
+                                <li>
+                                    <a href="suggest">suggest</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="sfooter shadow">
+                        <div class="sfooter-inner">
+                            <div class="prof-container clearfix">
+                                <div class="prof-pic"></div>
+                                <div class="prof-name">
+                                    <a href="/">sQuijeW</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>         
+                <div class="main-content">
+                    <asp:ContentPlaceHolder runat="server" ID="MainContent" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="section-break"></div>
+    <footer>
+        <div id="footer">
+            <div class="footer-inner"></div>
+        </div>
+    </footer>
+    </form>
+</body>
+</html>
