@@ -24,7 +24,7 @@ table {
 /*-------------------------------------------*/
 
 html {
-    background: #ddd url(/images/debut_light.png) repeat 0 0;
+    background: #dedede url(/images/debut_light.png) repeat 0 0;
     color: #444;
     -webkit-font-smoothing: antialiased !important;
 }
@@ -99,12 +99,21 @@ input[type=submit] {
     
     input[type=submit]:active {
         opacity: 0.7;
-    }
+    }   
+
+.panel {
+    background:  rgba(255, 255, 255, 0.8);
+    border-radius: 6px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .3);
+    //border: 1px solid #ddd;
+}
+
+
 
 /*-- SIDE BAR -----------------------------*/   
 #sidebar {
     position: fixed;
-    width: 210px;
+    //width: 210px;
     height: 100%;
     min-height: 500px;
     //box-shadow: 0 0 6px rgba(0, 0, 0, .3);
@@ -142,7 +151,7 @@ input[type=submit] {
 .sidebar-inner .menu {
     width: 150px;
     margin: 0 auto;
-    background: rgba( 14, 3, 19, 0.77);
+    background: rgba( 14, 3, 19, 0.75);
     padding: 5px 20px 30px;
     text-align: center;
     border-right: 1px solid;
@@ -244,17 +253,39 @@ input[type=submit] {
     left: 210px;
     width: 740px;
     margin: 0 0 0 30px;
-    padding: 20px 0 0 0;
 }
 
+/* page message box
+================================================ */
+#page-message {
+    position: relative;
+}
+
+    #page-message .inner {
+        background: rgba(0, 0, 0, 0.05);
+        text-align: center;
+        height: 86px;
+        max-width: 864px;
+        margin: 0 auto;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        //box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    }
+
+        #page-message .inner p {
+            font-size: 1.6em;
+            //font-weight: bold;
+            padding: 25px 0;
+        }
+
+/*-- HOME PAGE ------------------------*/
     .main-content .search {
         box-shadow: 0 0 6px rgba(0, 0, 0, .3);
         border-radius: 6px;
         height: 45px;
         width: 740px;
-        padding: 0;
     }
-
+    
     .main-content .search input[type=text] {
         padding: 0 0 0 33px;
         height: 45px;
@@ -267,6 +298,7 @@ input[type=submit] {
         border-bottom-right-radius: 0;
         border-top-right-radius: 0;
         float: left;
+        outline: none;
     }    
 
     .main-content .search input[type=submit] {
@@ -279,14 +311,14 @@ input[type=submit] {
         //box-shadow: 0 0 6px rgba(0, 0, 0, .3);
         border-bottom-left-radius: 0;
         border-top-left-radius: 0;
+        border-top: 1px solid;
+        border-right: 1px solid;
+        border-bottom: 1px solid;
+        border-color: rgba(58, 3, 69, 0.4);
     }
 
-.panel {
-    background:  rgba(255, 255, 255, 0.8);
-    border-radius: 6px;
-    box-shadow: 0 0 6px rgba(0, 0, 0, .3);
+.destination-master {
     padding: 20px 50px 50px;
-    //border: 1px solid #ddd;
 }
 
 .subheader {
@@ -319,6 +351,15 @@ input[type=submit] {
         margin: 18px 10px 0 0;
     }
 
+.see-details input[type=submit] {
+    line-height: 1;
+    font-size: 1.3em;
+    padding: 5px 8px 8px 10px;
+    background: #810699;
+    border: 1px solid rgba(58, 3, 69, 0.4);
+}
+
+
 .meta-info {
     text-align: center;
     //background: yellow;
@@ -340,14 +381,17 @@ input[type=submit] {
 .destination-item .committed {
     //background: rgba(0, 0, 0, 0.1);
     color: #000;
+    width: 75px;
 }
 
 .destination-item .price {
     color: #12B000;
+    width: 25px;
 }
 
 .destination-item .time-left {
     color: #BA0000;
+    width: 60px;
 }
 
 .destination-item div.summary {
@@ -377,13 +421,85 @@ input[type=submit] {
 }
 
 
-
-.see-details input[type=submit] {
-    line-height: 1;
-    font-size: 1.3em;
-    padding: 5px 9px 8px 10px;
-    background: #810699;
+/*-- SUGGEST --------------------------------------*/
+.suggest-content {
+   background: rgba(0, 0, 0, 0.05);
+   border-radius: 6px;
+   position: relative;
+   padding: 20px 40px 30px;
+   //box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
 }
+
+.suggest-item {
+    border-bottom: 1px solid #ccc;
+    padding: 30px;
+    //background: rgba(0, 0, 0, 0.1);
+}
+
+    .suggest-item div {
+        float: left;
+    }
+
+    .suggest-item input[type=text] {
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+        width: 420px;
+        position: relative;
+        outline: none;
+    }
+
+    .suggest-item input[type=text]:focus {
+        border: 1px solid #810699;
+    }
+
+    .suggest-item .suggest-label {
+        width: 120px;
+        margin: 0 30px 0 0;
+    }
+
+    .suggest-item .suggest-form {
+        width: 450px;
+    }
+
+.suggest-label label {
+    text-align: right;
+    margin: 15px 0 0 0;
+    display: block;
+    line-height: 1;
+    font-size: 1.4em;
+    font-family: 'Segoe UI';
+    //font-weight: bold;
+}
+
+.suggest-form p {
+    color: #777;
+    font-size: 0.9em;
+    font-family: 'Segoe UI';
+    margin: 5px 0 0 5px;
+}
+
+.suggest-action {
+    margin: 30px 0 0 0;
+    text-align: right;
+}
+
+    .suggest-action input[type=submit] {
+        padding: 10px 50px 15px;
+        //line-height: 1;
+        background: #810699;
+        border: 1px solid rgba(58, 3, 69, 0.4);    
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+    }
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* UNUSED CODE

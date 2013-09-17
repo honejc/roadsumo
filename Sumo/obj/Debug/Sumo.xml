@@ -6,41 +6,17 @@ Sumo
 </name>
 </assembly>
 <members>
-<member name="F:Sumo.index.Head1">
+<member name="F:Sumo.Register.RegisterUser">
 	<summary>
-Head1 control.
+RegisterUser control.
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:Sumo.index.form1">
+</member><member name="F:Sumo.Register.RegisterUserWizardStep">
 	<summary>
-form1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Sumo.index.TextBox1">
-	<summary>
-TextBox1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Sumo.index.Button5">
-	<summary>
-Button5 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Sumo.index.rptr_SuggestionList">
-	<summary>
-rptr_SuggestionList control.
+RegisterUserWizardStep control.
 </summary>
 	<remarks>
 Auto-generated field.
@@ -57,54 +33,6 @@ To modify move field declaration from designer file to code-behind file.
 </member><member name="F:Sumo.Login.OpenAuthLogin">
 	<summary>
 OpenAuthLogin control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Sumo.Site_Mobile.Head1">
-	<summary>
-Head1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Sumo.Site_Mobile.HeadContent">
-	<summary>
-HeadContent control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Sumo.Site_Mobile.form1">
-	<summary>
-form1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Sumo.Site_Mobile.FeaturedContent">
-	<summary>
-FeaturedContent control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Sumo.Site_Mobile.MainContent">
-	<summary>
-MainContent control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Sumo.Site_Mobile.ViewSwitcher1">
-	<summary>
-ViewSwitcher1 control.
 </summary>
 	<remarks>
 Auto-generated field.
@@ -158,47 +86,94 @@ btnSave_Suggest control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:Sumo.Register.RegisterUser">
+</member><member name="F:Sumo.Manage.successMessage">
 	<summary>
-RegisterUser control.
+successMessage control.
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:Sumo.Register.RegisterUserWizardStep">
+</member><member name="F:Sumo.Manage.setPassword">
 	<summary>
-RegisterUserWizardStep control.
+setPassword control.
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="P:Sumo.My.MyWebExtension.Computer">
+</member><member name="F:Sumo.Manage.password">
 	<summary>
- Returns information about the host computer.
- </summary>
-</member><member name="P:Sumo.My.MyWebExtension.User">
+password control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Sumo.Manage.confirmPassword">
 	<summary>
- Returns information for the current Web user.
- </summary>
-</member><member name="P:Sumo.My.MyWebExtension.Request">
+confirmPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Sumo.Manage.changePassword">
 	<summary>
- Returns Request object.
- </summary>
-</member><member name="P:Sumo.My.MyWebExtension.Response">
+changePassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Sumo.Site_Mobile.Head1">
 	<summary>
- Returns Response object.
- </summary>
-</member><member name="P:Sumo.My.MyWebExtension.Log">
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Sumo.Site_Mobile.HeadContent">
 	<summary>
- Returns the Asp log object.
- </summary>
-</member><member name="T:Sumo.My.MyWebExtension">
+HeadContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Sumo.Site_Mobile.form1">
 	<summary>
- Module used to define the properties that are available in the My Namespace for Web projects.
- </summary>
-	<remarks></remarks>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Sumo.Site_Mobile.FeaturedContent">
+	<summary>
+FeaturedContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Sumo.Site_Mobile.MainContent">
+	<summary>
+MainContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Sumo.Site_Mobile.ViewSwitcher1">
+	<summary>
+ViewSwitcher1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
 </member><member name="F:Sumo.index2.Head1">
 	<summary>
 Head1 control.
@@ -279,6 +254,14 @@ rptr_SuggestionList control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+</member><member name="F:Sumo.OpenAuthProviders.providerDetails">
+	<summary>
+providerDetails control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
 </member><member name="F:Sumo.home.TextBox1">
 	<summary>
 TextBox1 control.
@@ -303,17 +286,66 @@ rptr_SuggestionList control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:Sumo.RegisterExternalLogin.userNameForm">
+</member><member name="P:Sumo.My.MyWebExtension.Computer">
 	<summary>
-userNameForm control.
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:Sumo.My.MyWebExtension.User">
+	<summary>
+ Returns information for the current Web user.
+ </summary>
+</member><member name="P:Sumo.My.MyWebExtension.Request">
+	<summary>
+ Returns Request object.
+ </summary>
+</member><member name="P:Sumo.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:Sumo.My.MyWebExtension.Log">
+	<summary>
+ Returns the Asp log object.
+ </summary>
+</member><member name="T:Sumo.My.MyWebExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Sumo.index.Head1">
+	<summary>
+Head1 control.
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:Sumo.RegisterExternalLogin.userName">
+</member><member name="F:Sumo.index.form1">
 	<summary>
-userName control.
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Sumo.index.TextBox1">
+	<summary>
+TextBox1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Sumo.index.Button5">
+	<summary>
+Button5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Sumo.index.rptr_SuggestionList">
+	<summary>
+rptr_SuggestionList control.
 </summary>
 	<remarks>
 Auto-generated field.
@@ -335,49 +367,17 @@ MainContent control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:Sumo.Manage.successMessage">
+</member><member name="F:Sumo.RegisterExternalLogin.userNameForm">
 	<summary>
-successMessage control.
+userNameForm control.
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:Sumo.Manage.setPassword">
+</member><member name="F:Sumo.RegisterExternalLogin.userName">
 	<summary>
-setPassword control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Sumo.Manage.password">
-	<summary>
-password control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Sumo.Manage.confirmPassword">
-	<summary>
-confirmPassword control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Sumo.Manage.changePassword">
-	<summary>
-changePassword control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Sumo.OpenAuthProviders.providerDetails">
-	<summary>
-providerDetails control.
+userName control.
 </summary>
 	<remarks>
 Auto-generated field.

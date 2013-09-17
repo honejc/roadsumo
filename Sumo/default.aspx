@@ -2,12 +2,13 @@
 <asp:Content ID="HeadContent" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
 <asp:Content ID="MainContent" ContentPlaceHolderID="MainContent" runat="server">   
+    <div class="content-break"></div>
     <div class="search">
         <asp:TextBox ID="TextBox1" runat="server" placeholder="search for desired destination..."></asp:TextBox>
         <asp:Button ID="Button5" runat="server" Text="search" />
     </div>    
     <div class="content-break"></div>
-    <div class="panel">
+    <div class="destination-master panel">
         <div class="subheader">
             <h1>Active Suggestions</h1>  
         </div>      

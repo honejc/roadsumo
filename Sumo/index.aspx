@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head id="Head1" runat="server">
-    <title>welcome to roadsumo</title>
+    <title>roadsumo - layout 1</title>
     <link href="~/Content/sumo.css" type="text/css" rel="stylesheet" />
 </head>
 <body>

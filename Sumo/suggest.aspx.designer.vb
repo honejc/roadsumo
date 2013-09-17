@@ -14,15 +14,6 @@ Option Explicit On
 Partial Public Class suggest
 
     '''<summary>
-    '''txtOrigin control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents txtOrigin As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
     '''txtDestination control.
     '''</summary>
     '''<remarks>
@@ -32,38 +23,47 @@ Partial Public Class suggest
     Protected WithEvents txtDestination As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''txtTripDate control.
+    '''txtOrigin control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents txtTripDate As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txtOrigin As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''txtDescription control.
+    '''TextBox2 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents txtDescription As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents TextBox2 As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''txtSuggest_life control.
+    '''TextBox3 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents txtSuggest_life As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents TextBox3 As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''btnSave_Suggest control.
+    '''TextBox1 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents btnSave_Suggest As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents TextBox1 As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''btnSuggest control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents btnSuggest As Global.System.Web.UI.WebControls.Button
 End Class

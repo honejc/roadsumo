@@ -35,3 +35,40 @@ C:\Users\honejc\Documents\Visual Studio 2012\Projects\Sumo\Sumo\obj\Debug\Sumo.d
 C:\Users\honejc\Documents\Visual Studio 2012\Projects\Sumo\Sumo\obj\Debug\Sumo.xml
 C:\Users\honejc\Documents\Visual Studio 2012\Projects\Sumo\Sumo\obj\Debug\Sumo.pdb
 C:\Users\honejc\Documents\Visual Studio 2012\Projects\Sumo\Sumo\obj\Debug\Sumo.vbprojResolveAssemblyReference.cache
+C:\Users\honejc\Documents\Roadsumo\Web\Sumo\Sumo\bin\Sumo.dll
+C:\Users\honejc\Documents\Roadsumo\Web\Sumo\Sumo\bin\Sumo.pdb
+C:\Users\honejc\Documents\Roadsumo\Web\Sumo\Sumo\bin\Sumo.xml
+C:\Users\honejc\Documents\Roadsumo\Web\Sumo\Sumo\bin\Antlr3.Runtime.dll
+C:\Users\honejc\Documents\Roadsumo\Web\Sumo\Sumo\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\honejc\Documents\Roadsumo\Web\Sumo\Sumo\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\honejc\Documents\Roadsumo\Web\Sumo\Sumo\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\honejc\Documents\Roadsumo\Web\Sumo\Sumo\bin\DotNetOpenAuth.Core.dll
+C:\Users\honejc\Documents\Roadsumo\Web\Sumo\Sumo\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\honejc\Documents\Roadsumo\Web\Sumo\Sumo\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\honejc\Documents\Roadsumo\Web\Sumo\Sumo\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\honejc\Documents\Roadsumo\Web\Sumo\Sumo\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\honejc\Documents\Roadsumo\Web\Sumo\Sumo\bin\EntityFramework.dll
+C:\Users\honejc\Documents\Roadsumo\Web\Sumo\Sumo\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\honejc\Documents\Roadsumo\Web\Sumo\Sumo\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\honejc\Documents\Roadsumo\Web\Sumo\Sumo\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\honejc\Documents\Roadsumo\Web\Sumo\Sumo\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\honejc\Documents\Roadsumo\Web\Sumo\Sumo\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\honejc\Documents\Roadsumo\Web\Sumo\Sumo\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\honejc\Documents\Roadsumo\Web\Sumo\Sumo\bin\System.Web.Optimization.dll
+C:\Users\honejc\Documents\Roadsumo\Web\Sumo\Sumo\bin\System.Web.Providers.dll
+C:\Users\honejc\Documents\Roadsumo\Web\Sumo\Sumo\bin\WebGrease.dll
+C:\Users\honejc\Documents\Roadsumo\Web\Sumo\Sumo\bin\EntityFramework.xml
+C:\Users\honejc\Documents\Roadsumo\Web\Sumo\Sumo\bin\DotNetOpenAuth.Core.xml
+C:\Users\honejc\Documents\Roadsumo\Web\Sumo\Sumo\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\honejc\Documents\Roadsumo\Web\Sumo\Sumo\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\honejc\Documents\Roadsumo\Web\Sumo\Sumo\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\honejc\Documents\Roadsumo\Web\Sumo\Sumo\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\honejc\Documents\Roadsumo\Web\Sumo\Sumo\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\honejc\Documents\Roadsumo\Web\Sumo\Sumo\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+C:\Users\honejc\Documents\Roadsumo\Web\Sumo\Sumo\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\honejc\Documents\Roadsumo\Web\Sumo\Sumo\obj\Debug\Sumo.vbprojResolveAssemblyReference.cache
+C:\Users\honejc\Documents\Roadsumo\Web\Sumo\Sumo\obj\Debug\Sumo.Resources.resources
+C:\Users\honejc\Documents\Roadsumo\Web\Sumo\Sumo\obj\Debug\Sumo.vbproj.GenerateResource.Cache
+C:\Users\honejc\Documents\Roadsumo\Web\Sumo\Sumo\obj\Debug\Sumo.dll
+C:\Users\honejc\Documents\Roadsumo\Web\Sumo\Sumo\obj\Debug\Sumo.xml
+C:\Users\honejc\Documents\Roadsumo\Web\Sumo\Sumo\obj\Debug\Sumo.pdb

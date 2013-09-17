@@ -71,7 +71,8 @@
                             </div>
                         </div>
                     </div>
-                </div>         
+                </div>
+                <div class="clearfix"></div>       
                 <div class="main-content">
                     <asp:ContentPlaceHolder runat="server" ID="MainContent" />
                 </div>
