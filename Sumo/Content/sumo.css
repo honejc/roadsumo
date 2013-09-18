@@ -37,6 +37,7 @@ body {
 }
 
 a {
+    color: #fff;
 	text-decoration: none;
 }
 
@@ -262,7 +263,7 @@ input[type=submit] {
 }
 
     #page-message .inner {
-        background: rgba(0, 0, 0, 0.05);
+        background: rgba(0, 0, 0, 0.08);
         text-align: center;
         height: 86px;
         max-width: 864px;
@@ -351,12 +352,14 @@ input[type=submit] {
         margin: 18px 10px 0 0;
     }
 
-.see-details input[type=submit] {
-    line-height: 1;
+.see-details input[type=submit], .see-details a {
+    line-height: 1.5;
     font-size: 1.3em;
-    padding: 5px 8px 8px 10px;
+    padding: 2px 11px 6px 13px;
     background: #810699;
     border: 1px solid rgba(58, 3, 69, 0.4);
+    border-radius: 6px;
+    display: block;
 }
 
 
@@ -423,7 +426,7 @@ input[type=submit] {
 
 /*-- SUGGEST --------------------------------------*/
 .suggest-content {
-   background: rgba(0, 0, 0, 0.05);
+   background: rgba(0, 0, 0, 0.08);
    border-radius: 6px;
    position: relative;
    padding: 20px 40px 30px;
@@ -484,17 +487,71 @@ input[type=submit] {
 
     .suggest-action input[type=submit] {
         padding: 10px 50px 15px;
-        //line-height: 1;
         background: #810699;
         border: 1px solid rgba(58, 3, 69, 0.4);    
         box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
     }
 
+/*-- TRIP DETAILS------------------*/
+.trip-map {
+    //width: 740px;
+    //height: 400px;
+    //background: green;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+    border-radius: 6px;
+}
 
+.trip-summary .panel {
+    //height: 300px;
+    padding: 20px;
+}
 
+.trip-details, .trip-action {
+    float: left;
+    display: inline;
+    //height: 200px;
+}
 
+.trip-details {
+    width: 500px;
+}
 
+.trip-action {
+    width: 200px;
+    background: rgba(0, 0, 0, 0.1);
+}
 
+.action-container {
+    padding: 20px 20px;
+}
+
+    .action-container input[type=submit] {
+        margin: 0 auto;
+        display: block;
+        padding: 10px 45px 15px;
+        background: #810699;
+        border: 1px solid rgba(58, 3, 69, 0.4);    
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+    }
+
+    .action-container div.meta {
+        margin:  0 0 10px 0;
+        text-align: center;
+        border-bottom: 1px solid #bcbcbc;
+        padding: 0 0 10px 0;
+    }
+    
+        .action-container div.meta:last-child  {
+            border-bottom: 0;
+            background: blue;
+        }
+        .action-container .meta:first-child span {
+            font-size: 2.5em;
+        }
+
+        .action-container .meta span {
+            font-size: 1.4em;
+        }
 
 
 

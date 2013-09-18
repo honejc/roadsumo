@@ -51,7 +51,7 @@
                         </div>
                     </div>
                     <div class="see-details">
-                        <asp:Button ID="btnSeeDetails" runat="server" Text=">" />
+                        <a href="roadtrip?tripID=<%# DataBinder.Eval(Container.DataItem, "tripID")%>" >></a>
                     </div>
                 </div>
             </ItemTemplate>
