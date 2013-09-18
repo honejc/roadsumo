@@ -103,7 +103,7 @@ input[type=submit] {
     }   
 
 .panel {
-    background:  rgba(255, 255, 255, 0.8);
+    background:  rgba(255, 255, 255, 0.77);
     border-radius: 6px;
     box-shadow: 0 0 6px rgba(0, 0, 0, .3);
     //border: 1px solid #ddd;
@@ -497,13 +497,13 @@ input[type=submit] {
     //width: 740px;
     //height: 400px;
     //background: green;
-    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
     border-radius: 6px;
 }
 
 .trip-summary .panel {
     //height: 300px;
-    padding: 20px;
+    padding: 40px;
 }
 
 .trip-details, .trip-action {
@@ -513,12 +513,32 @@ input[type=submit] {
 }
 
 .trip-details {
-    width: 500px;
+    width: 480px;
 }
 
+    .trip-details ul {
+        margin: 20px 0 20px 30px;
+    }
+
+.detail-container {
+    margin: 0 0 20px 0;
+}
+
+    .detail-container span {
+        font-size: 1.8em;
+    }
+    
+    .detail-container p {
+        border-top: 1px solid #ccc;
+        color: #aaa;
+        font-family: 'Segoe UI';
+        width: 300px;
+    }
+
 .trip-action {
-    width: 200px;
-    background: rgba(0, 0, 0, 0.1);
+    width: 180px;
+    background: rgba(0, 0, 0, 0.08);
+    border-radius: 6px;
 }
 
 .action-container {
@@ -528,7 +548,7 @@ input[type=submit] {
     .action-container input[type=submit] {
         margin: 0 auto;
         display: block;
-        padding: 10px 45px 15px;
+        padding: 10px 34px 15px;
         background: #810699;
         border: 1px solid rgba(58, 3, 69, 0.4);    
         box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
@@ -545,7 +565,7 @@ input[type=submit] {
             border-bottom: 0;
             background: blue;
         }
-        .action-container .meta:first-child span {
+        .action-container div.meta:first-child span {
             font-size: 2.5em;
         }
 

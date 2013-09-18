@@ -10,12 +10,24 @@
     <div class="trip-summary">
         <div class="panel clearfix">
             <div class="trip-details">
-                <div class="detail-container">
-                    <div>Destination: McLean, VA</div>
-                    <div>Origin: Chantilly, VA</div>
-                    <div>Date: 19 Sep 2013</div>
-                    <div>Route: list stops here</div>
-                </div>
+                <ul>                    
+                    <li class="detail-container">
+                        <asp:Label ID="lblDestination" runat="server">McLean, VA</asp:Label>
+                        <p>destination</p>
+                    </li>
+                    <li class="detail-container">
+                        <asp:Label ID="Label1" runat="server">Chantilly, VA</asp:Label>
+                        <p>origin</p>
+                    </li>
+                    <li class="detail-container">
+                        <asp:Label ID="Label2" runat="server">22 Sep 2013</asp:Label>
+                        <p>trip date</p>
+                    </li>
+                    <li class="detail-container">
+                        <asp:Label ID="Label3" runat="server">route planns</asp:Label>
+                        <p>stops</p>
+                    </li>
+                </ul>
             </div>
             <div class="trip-action">
                 <div class="action-container">

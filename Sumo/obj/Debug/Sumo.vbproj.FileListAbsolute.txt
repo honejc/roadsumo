@@ -71,3 +71,4 @@ C:\Users\honejc\Documents\Roadsumo\Web\Sumo\Sumo\obj\Debug\Sumo.vbproj.GenerateR
 C:\Users\honejc\Documents\Roadsumo\Web\Sumo\Sumo\obj\Debug\Sumo.dll
 C:\Users\honejc\Documents\Roadsumo\Web\Sumo\Sumo\obj\Debug\Sumo.xml
 C:\Users\honejc\Documents\Roadsumo\Web\Sumo\Sumo\obj\Debug\Sumo.pdb
+C:\Users\honejc\Documents\Roadsumo\Web\Sumo\Sumo\obj\Debug\Sumo.vbprojResolveAssemblyReference.cache
