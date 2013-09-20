@@ -6,9 +6,9 @@ Public Class home
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-        Dim dbconn As SqlConnection
-        Dim sqlCmd As SqlCommand
-        Dim sqlAdapt As SqlDataAdapter
+        Dim dbconn As SqlConnection = Nothing
+        Dim sqlCmd As SqlCommand = Nothing
+        Dim sqlAdapt As SqlDataAdapter = Nothing
         Dim ds As DataSet
 
         Try
@@ -26,6 +26,11 @@ Public Class home
             rptr_SuggestionList.DataBind()
         Catch ex As Exception
             Throw ex
+        Finally
+            sqlCmd.Dispose()
+            If dbconn.State <> ConnectionState.Closed Then
+                dbconn.Close()
+            End If
         End Try
     End Sub
 

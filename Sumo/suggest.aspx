@@ -35,7 +35,7 @@
                     <label>Trip date</label>
                 </div>
                 <div class="suggest-form">
-                    <asp:TextBox runat="server" ID="TextBox2"></asp:TextBox>
+                    <asp:TextBox runat="server" ID="txtTripDate"></asp:TextBox>
                     <p>When will this trip happen? Day trips &ndash; roadsumo currently only provides day trips. We are working tirelessly to expand the trip length as well as our services.</p>
                 </div>
             </div>
@@ -44,7 +44,7 @@
                     <label>Description</label>
                 </div>
                 <div class="suggest-form">
-                    <asp:TextBox runat="server" ID="TextBox3"></asp:TextBox>
+                    <asp:TextBox runat="server" ID="txtDescription"></asp:TextBox>
                     <p>Why do you want to go? Leave a quick blurb about the purpose for your trip &ndash; describe events/activities at the destination.</p>
                 </div>
             </div>
@@ -53,8 +53,26 @@
                     <label>Stir duration</label>
                 </div>
                 <div class="suggest-form">
-                    <asp:TextBox runat="server" ID="TextBox1"></asp:TextBox>
+                    <asp:TextBox runat="server" ID="txtStir"></asp:TextBox>
                     <p>How long do you want to keep this suggestion open? We recommend that suggestions remain active for less than 14 days and closes at least 7 days before the trip date &ndash; provide time for planning the best route.</p>
+                </div>
+            </div>
+            <div class="suggest-item clearfix">
+                <div class="suggest-label">
+                    <label>Price</label>
+                </div>
+                <div class="suggest-form">
+                    <asp:TextBox runat="server" ID="txtPrice"></asp:TextBox>
+                    <p>How much is this trip? Price per person for this trip</p>
+                </div>
+            </div>
+            <div class="suggest-item clearfix">
+                <div class="suggest-label">
+                    <label>Quota</label>
+                </div>
+                <div class="suggest-form">
+                    <asp:TextBox runat="server" ID="txtTotal"></asp:TextBox>
+                    <p>How many people is needed to make this trip happen?</p>
                 </div>
             </div>
             <div class="suggest-action">

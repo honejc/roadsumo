@@ -23,22 +23,31 @@ Partial Public Class roadtrip
     Protected WithEvents lblDestination As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''Label1 control.
+    '''lblOrigin control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents Label1 As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents lblOrigin As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''Label2 control.
+    '''lblTripDate control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents Label2 As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents lblTripDate As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''lblDescription control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lblDescription As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''Label3 control.
@@ -68,11 +77,11 @@ Partial Public Class roadtrip
     Protected WithEvents lblCommitted As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''lblTimeleft control.
+    '''lblRemaining control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents lblTimeleft As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents lblRemaining As Global.System.Web.UI.WebControls.Label
 End Class

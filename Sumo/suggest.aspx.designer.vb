@@ -32,31 +32,49 @@ Partial Public Class suggest
     Protected WithEvents txtOrigin As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''TextBox2 control.
+    '''txtTripDate control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TextBox2 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txtTripDate As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''TextBox3 control.
+    '''txtDescription control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TextBox3 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txtDescription As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''TextBox1 control.
+    '''txtStir control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TextBox1 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txtStir As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''txtPrice control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txtPrice As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''txtTotal control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txtTotal As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''btnSuggest control.

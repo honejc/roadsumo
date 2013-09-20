@@ -12,19 +12,23 @@
             <div class="trip-details">
                 <ul>                    
                     <li class="detail-container">
-                        <asp:Label ID="lblDestination" runat="server">McLean, VA</asp:Label>
+                        <asp:Label ID="lblDestination" runat="server"></asp:Label>
                         <p>destination</p>
                     </li>
                     <li class="detail-container">
-                        <asp:Label ID="Label1" runat="server">Chantilly, VA</asp:Label>
+                        <asp:Label ID="lblOrigin" runat="server"></asp:Label>
                         <p>origin</p>
                     </li>
                     <li class="detail-container">
-                        <asp:Label ID="Label2" runat="server">22 Sep 2013</asp:Label>
+                        <asp:Label ID="lblTripDate" runat="server"></asp:Label>
                         <p>trip date</p>
                     </li>
                     <li class="detail-container">
-                        <asp:Label ID="Label3" runat="server">route planns</asp:Label>
+                        <asp:Label ID="lblDescription" runat="server"></asp:Label>
+                        <p>stops</p>
+                    </li>
+                    <li class="detail-container">
+                        <asp:Label ID="Label3" runat="server">route stops</asp:Label>
                         <p>stops</p>
                     </li>
                 </ul>
@@ -32,15 +36,15 @@
             <div class="trip-action">
                 <div class="action-container">
                     <div class="meta price">
-                        <asp:Label ID="lblPrice" runat="server">$30</asp:Label>
+                        <asp:Label ID="lblPrice" runat="server"></asp:Label>
                         <p>per person</p>
                     </div>
                     <div class="meta committed">
-                        <asp:Label ID="lblCommitted" runat="server">4 of 8</asp:Label>
+                        <asp:Label ID="lblCommitted" runat="server"></asp:Label>
                         <p>committed</p>
                     </div>
                     <div class="meta time-left">
-                        <asp:Label ID="lblTimeleft" runat="server">7 d</asp:Label>
+                        <asp:Label ID="lblRemaining" runat="server"></asp:Label>
                         <p>remaining</p>
                     </div>
                     <input type="submit" value="commit" />

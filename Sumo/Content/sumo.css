@@ -276,7 +276,7 @@ input[type=submit] {
         #page-message .inner p {
             font-size: 1.6em;
             //font-weight: bold;
-            padding: 25px 0;
+            padding: 26px 0;
         }
 
 /*-- HOME PAGE ------------------------*/
@@ -455,8 +455,8 @@ input[type=submit] {
     }
 
     .suggest-item .suggest-label {
-        width: 120px;
-        margin: 0 30px 0 0;
+        width: 125px;
+        margin: 0 25px 0 0;
     }
 
     .suggest-item .suggest-form {

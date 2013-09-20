@@ -38,6 +38,46 @@ OpenAuthLogin control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+</member><member name="F:Sumo.roadtrip.lblDestination">
+	<summary>
+lblDestination control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Sumo.roadtrip.lblOrigin">
+	<summary>
+lblOrigin control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Sumo.roadtrip.lblTripDate">
+	<summary>
+lblTripDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Sumo.roadtrip.lblDescription">
+	<summary>
+lblDescription control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Sumo.roadtrip.Label3">
+	<summary>
+Label3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
 </member><member name="F:Sumo.roadtrip.lblPrice">
 	<summary>
 lblPrice control.
@@ -54,9 +94,9 @@ lblCommitted control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:Sumo.roadtrip.lblTimeleft">
+</member><member name="F:Sumo.roadtrip.lblRemaining">
 	<summary>
-lblTimeleft control.
+lblRemaining control.
 </summary>
 	<remarks>
 Auto-generated field.
@@ -78,25 +118,41 @@ txtOrigin control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:Sumo.suggest.TextBox2">
+</member><member name="F:Sumo.suggest.txtTripDate">
 	<summary>
-TextBox2 control.
+txtTripDate control.
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:Sumo.suggest.TextBox3">
+</member><member name="F:Sumo.suggest.txtDescription">
 	<summary>
-TextBox3 control.
+txtDescription control.
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:Sumo.suggest.TextBox1">
+</member><member name="F:Sumo.suggest.txtStir">
 	<summary>
-TextBox1 control.
+txtStir control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Sumo.suggest.txtPrice">
+	<summary>
+txtPrice control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Sumo.suggest.txtTotal">
+	<summary>
+txtTotal control.
 </summary>
 	<remarks>
 Auto-generated field.
